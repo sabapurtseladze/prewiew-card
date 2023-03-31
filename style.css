@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   background-color: #F2EAE2;
+}
+.desktop{
+    display: none;
+}
+.img{
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    width: 343px;
+}
+.perfume{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    initial-letter: 5px;
+    margin-top: 24px;
+}
+.gabrielle{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    margin-top: 16px;
+}
+
+.mobile{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.price{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #3D8168;
+}
+.chanel{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #6C7289;
+    margin-top: 16px;
+}
+.sunamo{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.dollar{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    text-decoration-line: line-through;
+    padding-left: 19px;
+}
+.pricediv{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+.shop{
+    background-color: #3D8168;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
+    padding-top: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.shop p{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 12px;
+    color: white;
+}
+@media (min-width:1000px){
+    .desktop{
+        display: inline-block;
+        height: 450px;
+    }
+    .mobile{
+        display: none;
+    }
+    .img{
+        display: flex;
+        width: 600px;
+    }
+    .perfume{
+        margin-top: 32px;
+    }
+    .gabrielle{
+        margin-top: 20px;
+    }
+    .chanel{
+        margin-top: 24px;
+    }
+    .pricediv{
+        margin-top: 29px;
+    }
+    .shop{
+        margin-top: 30px;
+    }
+    .sunamo{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
